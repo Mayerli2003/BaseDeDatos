@@ -82,7 +82,7 @@ select * from PacienteTelefono;
 
 create table Ingresos(
 procedencia varchar(50) not null,
-fechaDeIngreso date not null  ,
+fechaDeIngreso date not null primary key  ,
 numeroDePlanta int not null,
 numeroDeCama int  not null ,
 observaciones  varchar(50) not null,
@@ -132,6 +132,16 @@ select * from Ingresos;
  insert into  Medicos  values ('Gabriel','Menjivar', 12645,6,2);
  insert into  Medicos  values ('Jose','Sanchez', 12845,7,3);
  insert into  Medicos  values ('Adonay','Martinez', 10345,8,4);
+ 
+ insert into  Medicos  values ('Ricardo','Diaz', 10005,1,2);
+ insert into  Medicos  values ('Juan','Monterrosa', 22335,2,1);
+ insert into  Medicos  values ('Adiel','Montalvo', 32385,3,3);
+ insert into  Medicos  values ('Dion ','Castillo', 42305,4,4);
+ insert into  Medicos  values ('Mauro','Mendez', 52315,5,1);
+ insert into  Medicos  values ('Otoniel','Menjivar', 62645,6,2);
+ insert into  Medicos  values ('Jose','Sanchez', 72845,7,3);
+ insert into  Medicos  values ('Adonay','Martinez', 80345,8,4);
+ insert into  Medicos  values ('Marcos','Mendez', 90345,8,4);
 
  select * from Medicos;
  
