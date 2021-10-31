@@ -24,22 +24,22 @@ drop table PacientesSexo*/
 
 
 insert into Pacientes values(456, 'Rigoberto', 'Montalvo','Las mesas','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',1);
-insert into Pacientes values(486, 'Ricardo', 'Martinez','El Calvario','Chalatenango','CP 1301', 'Alergico a la penicilina',1);
-insert into Pacientes values(476, 'Karla', 'Lopez','Upatoro','Chalatenango','CP 1301', 'Alergica a los analgesicos',2);
-insert into Pacientes values(450, 'Lila', 'Perez','La Palma','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',2);
-insert into Pacientes values(451, 'Judith', 'Rodrigues','El limon','Chalatenango','CP 1301', 'Alergico a la aspirina',2);
-insert into Pacientes values(457, 'Azucena', 'Menjivar','El uno','Chalatenango','CP 1301', 'Alergico a la ibuprofeno',2);
-insert into Pacientes values(496, 'Maria', 'Monterrosa','El dos','Chalatenango','CP 1301', 'Alergico al mani',2);
-insert into Pacientes values(406, 'Bella', 'Fuentes','El tres','Chalatenango','CP 1301', 'Alergico al naproxeno',2);
-insert into Pacientes values(466, 'Mauro', 'Caballero','Moterredondo','Chalatenango','CP 1301', 'Alergico a los medicamentos de quimioterapia',1);
-insert into Pacientes values(426, 'Miguel', 'Castillo','Concepcion ','Chalatenango','CP 1301', 'Alergico a la anestesia',1);
-insert into Pacientes values(400, 'Angel', 'Asturias','La sierpe','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',1);
-insert into Pacientes values(300, 'Luis', 'Asturias','La sierpe','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',1);
-insert into Pacientes values(200, 'Jorge', 'Asturias','La colonias','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',1);
-insert into Pacientes values(100, 'Rene', 'Asturias','El amatillo','Chalatenango','CP 1301', 'Alergico a analgesicos',1);
-insert into Pacientes values(410, 'Manuel', 'Asturias','Concepcion','Chalatenango','CP 1301', 'Alergico a anestesia',1);
-insert into Pacientes values(420, 'Ernesto', 'Asturias','La nueva','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',1);
-insert into Pacientes values(430, 'Daniel', 'Asturias','San Fernando','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',1);
+insert into Pacientes values(486, 'Ricardo', 'Martinez','El Calvario','Chalatenango','CP 1301', 'Alergico a la penicilina',2);
+insert into Pacientes values(476, 'Karla', 'Lopez','Upatoro','Chalatenango','CP 1301', 'Alergica a los analgesicos',3);
+insert into Pacientes values(450, 'Lila', 'Perez','La Palma','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',4);
+insert into Pacientes values(451, 'Judith', 'Rodrigues','El limon','Chalatenango','CP 1301', 'Alergico a la aspirina',5);
+insert into Pacientes values(457, 'Azucena', 'Menjivar','El uno','Chalatenango','CP 1301', 'Alergico a la ibuprofeno',6);
+insert into Pacientes values(496, 'Maria', 'Monterrosa','El dos','Chalatenango','CP 1301', 'Alergico al mani',7);
+insert into Pacientes values(406, 'Bella', 'Fuentes','El tres','Chalatenango','CP 1301', 'Alergico al naproxeno',8);
+insert into Pacientes values(466, 'Mauro', 'Caballero','Moterredondo','Chalatenango','CP 1301', 'Alergico a los medicamentos de quimioterapia',9);
+insert into Pacientes values(426, 'Miguel', 'Castillo','Concepcion ','Chalatenango','CP 1301', 'Alergico a la anestesia',10);
+insert into Pacientes values(400, 'Angel', 'Asturias','La sierpe','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',11);
+insert into Pacientes values(300, 'Luis', 'Asturias','La sierpe','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',12);
+insert into Pacientes values(200, 'Jorge', 'Asturias','La colonias','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',13);
+insert into Pacientes values(100, 'Rene', 'Asturias','El amatillo','Chalatenango','CP 1301', 'Alergico a analgesicos',14);
+insert into Pacientes values(410, 'Manuel', 'Asturias','Concepcion','Chalatenango','CP 1301', 'Alergico a anestesia',15);
+insert into Pacientes values(420, 'Ernesto', 'Asturias','La nueva','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',16);
+insert into Pacientes values(430, 'Daniel', 'Asturias','San Fernando','Chalatenango','CP 1301', 'Alergico a anticonvulsivos',17);
 
 select * from Pacientes;
 
@@ -49,10 +49,26 @@ pSexoId  int identity (1,1) primary key ,
 sexo varchar(30) not null);
 
 insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
 insert into PacientesSexo values('Femenino');
+insert into PacientesSexo values('Femenino');
+insert into PacientesSexo values('Femenino');
+insert into PacientesSexo values('Femenino');
+insert into PacientesSexo values('Femenino');
+insert into PacientesSexo values('Femenino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
+insert into PacientesSexo values('Masculino');
 select * from PacientesSexo
 
-
+drop table PacientesSexo
 
 /*------------------------------Tabla Paciente telefono----------------------------*/
 create table PacienteTelefono(
@@ -74,7 +90,7 @@ insert into  PacienteTelefono values(10,'409-5997','399-9371', '137-4199');
 insert into  PacienteTelefono values(11,'809-5007','709-9371', '430-4199');
 
 select * from PacienteTelefono;
-
+drop table PacienteTelefono
 
 /*-------------------------Tabla ingresos que conecta a medicos y pacientes------------------------------*/
 
@@ -144,6 +160,7 @@ select * from Ingresos;
  insert into  Medicos  values ('Marcos','Mendez', 90345,8,4);
 
  select * from Medicos;
+ drop table Medicos
  
  /*--------------------------------------Table Especialidades---------------------------------*/
  create table Especialidades(
@@ -174,3 +191,4 @@ insert into InformacionMedico values ('Medico especialista ');
 insert into InformacionMedico values ('Medico asistente ');
 
 select * from InformacionMedico;
+drop table InformacionMedico
